@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +13,34 @@
     <link rel="stylesheet" href="/styles/style.css">
     <title>.: Libs.js :.</title>
 </head>
+
 <body>
-    <!-- Poderiamos adicionar a classe "animate__animated animate__bounce" diretamente no html, porem vamos usar o js com o efeito onmouseover -->
-    <!-- Poderiamos adicionar a classe "animate__animated animate__zoomIn" diretamente no html, porem vamos usar o js com o efeito onmouseover -->
-    <h1>Aqui vemos uma animação em Acão!</h1>
-    
+    <div id="container">
+        <div data-anchor="Page 1">
+            <header>
+                <h1>Aqui é o Cabeçalho!!</h1>
+                <!-- Poderiamos adicionar a classe "animate__animated animate__bounce" diretamente no html, porem vamos usar o js com o efeito onmouseover -->
+                <!-- Poderiamos adicionar a classe "animate__animated animate__zoomIn" diretamente no html, porem vamos usar o js com o efeito onmouseover -->
+                <h3>Aqui vemos uma animação em Acão!</h1>
+            </header>
+        </div>
+        <div data-anchor="Page 2">
+            <main>
+                    <h3>Aqui é corpo da pagina</h3>
+            </main>
+        </div>
+        <div data-anchor="Page 3">
+            <footer>
+                <h3>Aqui é o rodapé da pagina</h3>
+            </footer>
+        </div>
+    </div>
+
+
+
     <!-- link CDN de js da lib Pageable -->
     <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
     <script src="/js/index.js"></script>
 </body>
+
 </html>
