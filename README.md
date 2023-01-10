@@ -6,7 +6,7 @@
 
 <br>
 
-<p align="center">Nesta aula serão passados os conceitos de animações da Lib https://animate.style</p>
+<p align="center">Nesta aula serão passados os conceitos de animações fazendo uso das Libs https://animate.style (para animação) e https://github.com/Mobius1/Pageable (para paginação)</p>
 
 <br>
 
